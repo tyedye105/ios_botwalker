@@ -18,6 +18,9 @@
 		04B32CE71EFCB5D100BF762B /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CE61EFCB5D100BF762B /* TitleScene.swift */; };
 		04B32CE91EFDAF6400BF762B /* AboutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CE81EFDAF6400BF762B /* AboutScene.swift */; };
 		04B32CEB1EFDD34900BF762B /* botwalkerabout.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32CEA1EFDD34900BF762B /* botwalkerabout.png */; };
+		04B32CED1EFE05C200BF762B /* DashboardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CEC1EFE05C200BF762B /* DashboardScene.swift */; };
+		04B32CEF1EFEE3D400BF762B /* WalkerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CEE1EFEE3D400BF762B /* WalkerCore.swift */; };
+		04B32CF31EFEF3A000BF762B /* WalkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CF21EFEF3A000BF762B /* WalkScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		04B32CE61EFCB5D100BF762B /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
 		04B32CE81EFDAF6400BF762B /* AboutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutScene.swift; sourceTree = "<group>"; };
 		04B32CEA1EFDD34900BF762B /* botwalkerabout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botwalkerabout.png; sourceTree = "<group>"; };
+		04B32CEC1EFE05C200BF762B /* DashboardScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardScene.swift; sourceTree = "<group>"; };
+		04B32CEE1EFEE3D400BF762B /* WalkerCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkerCore.swift; sourceTree = "<group>"; };
+		04B32CF21EFEF3A000BF762B /* WalkScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +113,11 @@
 			children = (
 				04B32CB21EFCB46A00BF762B /* AppDelegate.swift */,
 				04B32CB61EFCB46A00BF762B /* Actions.sks */,
+				04B32CF21EFEF3A000BF762B /* WalkScene.swift */,
 				04B32CE61EFCB5D100BF762B /* TitleScene.swift */,
 				04B32CE81EFDAF6400BF762B /* AboutScene.swift */,
+				04B32CEC1EFE05C200BF762B /* DashboardScene.swift */,
+				04B32CEE1EFEE3D400BF762B /* WalkerCore.swift */,
 				04B32CBA1EFCB46A00BF762B /* GameViewController.swift */,
 				04B32CBC1EFCB46A00BF762B /* Main.storyboard */,
 				04B32CBF1EFCB46A00BF762B /* Assets.xcassets */,
@@ -276,6 +285,9 @@
 			files = (
 				04B32CE91EFDAF6400BF762B /* AboutScene.swift in Sources */,
 				04B32CBB1EFCB46A00BF762B /* GameViewController.swift in Sources */,
+				04B32CEF1EFEE3D400BF762B /* WalkerCore.swift in Sources */,
+				04B32CF31EFEF3A000BF762B /* WalkScene.swift in Sources */,
+				04B32CED1EFE05C200BF762B /* DashboardScene.swift in Sources */,
 				04B32CB31EFCB46A00BF762B /* AppDelegate.swift in Sources */,
 				04B32CE71EFCB5D100BF762B /* TitleScene.swift in Sources */,
 			);

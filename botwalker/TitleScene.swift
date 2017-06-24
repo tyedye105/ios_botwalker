@@ -38,10 +38,14 @@ class TitleScene: SKScene {
         for touch in touches {
         let pointTouch = touch.location(in: self)
         if atPoint (pointTouch) == about_btn{
-            let aboutScene = AboutScene(size: self.size)
-            let transition = SKTransition.doorsOpenHorizontal(withDuration: 0.0001)
-            self.view?.presentScene(aboutScene, transition:transition)
-            
+            let currentScene = AboutScene(size: self.size)
+            let transition = SKTransition.doorsOpenHorizontal(withDuration: 0.8)
+            self.view?.presentScene(currentScene, transition:transition)
+        } else if atPoint(pointTouch) == start_btn{
+            let currentScene = DashboardScene(size: self.size)
+            let transition = SKTransition.doorsOpenHorizontal(withDuration:0.8)
+            self.view?.presentScene(currentScene, transition:transition)
+
             }
         }
         
