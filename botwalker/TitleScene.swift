@@ -10,7 +10,7 @@ import SpriteKit
 
 class TitleScene: SKScene {
     let about_btn = SKLabelNode(fontNamed: "Times New Roman")
-    let temp_bot = SKShapeNode(rectOf: CGSize(width: 200, height: 200))
+    let temp_bot = SKSpriteNode(imageNamed: "tinybot.png")
     let start_btn = SKLabelNode(fontNamed: "Times New Roman")
 
 

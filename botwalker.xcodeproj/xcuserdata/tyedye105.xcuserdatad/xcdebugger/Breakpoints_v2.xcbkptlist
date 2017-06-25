@@ -26,7 +26,7 @@
                   moduleName = "botwalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/TitleScene.swift"
-                  timestampString = "519966464.795034"
+                  timestampString = "520071085.993557"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -41,7 +41,7 @@
                   moduleName = "botwalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/TitleScene.swift"
-                  timestampString = "519966464.79691"
+                  timestampString = "520071085.995311"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -56,12 +56,12 @@
                   moduleName = "botwalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/TitleScene.swift"
-                  timestampString = "519966464.79875"
+                  timestampString = "520071085.9973"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "286">
+                  offsetFromSymbolStart = "308">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -71,12 +71,12 @@
                   moduleName = "botwalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/TitleScene.swift"
-                  timestampString = "519966464.800774"
+                  timestampString = "520071085.999693"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "248">
+                  offsetFromSymbolStart = "270">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -86,12 +86,12 @@
                   moduleName = "botwalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/TitleScene.swift"
-                  timestampString = "519966464.802307"
+                  timestampString = "520071086.001345"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "271">
+                  offsetFromSymbolStart = "293">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -199,13 +199,294 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "botwalker/DashboardScene.swift"
-            timestampString = "520021812.030482"
+            timestampString = "520068118.843812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "DashboardScene"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/WalkerCore.swift"
+            timestampString = "520029301.616584"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/WalkScene.swift"
+            timestampString = "520063476.858401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/WalkScene.swift"
+            timestampString = "520063476.858401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "didMove(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/WalkScene.swift"
+            timestampString = "520063476.858401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "touchesBegan(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/DashboardScene.swift"
+            timestampString = "520060663.079367"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DashboardScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.DashboardScene.energyMeter.getter : __ObjC.SKLabelNode"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/DashboardScene.swift"
+                  timestampString = "520071086.026578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.DashboardScene.energyMeter.setter : __ObjC.SKLabelNode"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/DashboardScene.swift"
+                  timestampString = "520071086.028008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.DashboardScene.init (size : __C.CGSize) -&gt; botwalker.DashboardScene"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/DashboardScene.swift"
+                  timestampString = "520071086.029963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.DashboardScene.init () -&gt; botwalker.DashboardScene"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/DashboardScene.swift"
+                  timestampString = "520071086.031385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.DashboardScene.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;botwalker.DashboardScene&gt;"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/DashboardScene.swift"
+                  timestampString = "520071086.032951"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/WalkScene.swift"
+            timestampString = "520063476.858401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "update(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/BattleBot.swift"
+            timestampString = "520067286.295971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "BattleBot"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.BattleBot.__deallocating_deinit"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/BattleBot.swift"
+                  timestampString = "520071086.051451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.BattleBot.deinit"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/BattleBot.swift"
+                  timestampString = "520071086.053051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "botwalker/BattleBot.swift"
+            timestampString = "520067286.295971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "BattleBot"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.BattleBot.attk.getter : Swift.Int"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/BattleBot.swift"
+                  timestampString = "520071086.056338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "botwalker.BattleBot.attk.setter : Swift.Int"
+                  moduleName = "botwalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tyedye105/iOS%20stuff/botwalker/botwalker/BattleBot.swift"
+                  timestampString = "520071086.057645"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArenaScene.swift"
+            timestampString = "520071736.251493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "touchesBegan(_:with:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
