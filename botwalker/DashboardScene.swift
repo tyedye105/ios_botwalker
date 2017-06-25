@@ -13,7 +13,7 @@ class DashboardScene: SKScene {
     var energyMeter = SKLabelNode(fontNamed: "Times New Roman")
     var tmpBot = SKShapeNode(rectOf: CGSize(width:200, height:200))
     let walk_btn = SKLabelNode(fontNamed: "Times New Roman")
-    let fight_btn = SKLabelNode(fontNamed: "Time New ROman")
+    let fight_btn = SKLabelNode(fontNamed: "Times New Roman")
     var hpMeter = SKLabelNode(fontNamed: "Times New Roman")
     
 
@@ -51,8 +51,6 @@ class DashboardScene: SKScene {
                 let transition = SKTransition.doorsOpenVertical(withDuration: 1)
                 self.view?.presentScene(currentScene, transition: transition)
             }
-            
         }
-    
     }
 }

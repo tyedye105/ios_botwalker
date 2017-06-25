@@ -24,6 +24,7 @@
 		04B32D331EFF7B5C00BF762B /* BotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D321EFF7B5C00BF762B /* BotData.swift */; };
 		04B32D351EFF93C200BF762B /* BattleBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D341EFF93C200BF762B /* BattleBot.swift */; };
 		04B32D391EFFA0AD00BF762B /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D381EFFA0AD00BF762B /* ArenaScene.swift */; };
+		04B32D3B1F001EA100BF762B /* FightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D3A1F001EA100BF762B /* FightScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		04B32D321EFF7B5C00BF762B /* BotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BotData.swift; path = ../BotData.swift; sourceTree = "<group>"; };
 		04B32D341EFF93C200BF762B /* BattleBot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleBot.swift; sourceTree = "<group>"; };
 		04B32D381EFFA0AD00BF762B /* ArenaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArenaScene.swift; path = ../ArenaScene.swift; sourceTree = "<group>"; };
+		04B32D3A1F001EA100BF762B /* FightScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FightScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				04B32D381EFFA0AD00BF762B /* ArenaScene.swift */,
+				04B32D3A1F001EA100BF762B /* FightScene.swift */,
 				04B32D321EFF7B5C00BF762B /* BotData.swift */,
 				04B32D341EFF93C200BF762B /* BattleBot.swift */,
 				04B32CB21EFCB46A00BF762B /* AppDelegate.swift */,
@@ -302,6 +305,7 @@
 				04B32CB31EFCB46A00BF762B /* AppDelegate.swift in Sources */,
 				04B32CE71EFCB5D100BF762B /* TitleScene.swift in Sources */,
 				04B32D331EFF7B5C00BF762B /* BotData.swift in Sources */,
+				04B32D3B1F001EA100BF762B /* FightScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

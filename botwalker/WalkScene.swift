@@ -53,8 +53,8 @@ class WalkScene: SKScene {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
             let pointTouch = touch.location(in: self)
-            let currentScene = DashboardScene(size: self.size)
             if atPoint(pointTouch) == toDash {
+                let currentScene = DashboardScene(size: self.size)
                 let transition = SKTransition.doorsCloseHorizontal(withDuration: 0.8)
                 self.view?.presentScene(currentScene, transition: transition)
                 

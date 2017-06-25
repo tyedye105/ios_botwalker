@@ -35,6 +35,8 @@ class ArenaScene: SKScene {
             beginFight.text = "You should be able to put a decent fight, good luck!"
         } else if (BotData.data.energy) == 200 {
             beginFight.text = "Your're ready Roc-, I mean good luck!"
+        } else if (BotData.data.energy) < 100 {
+            beginFight.text = "Your core needs to be at least halfway charged. Take a walk!"
         }
         sceneTitle.position = CGPoint(x: self.size.width/2, y: self.size.height*0.9)
         winCondition.position = CGPoint(x: self.size.width/2, y: self.size.height*0.8)
@@ -71,6 +73,10 @@ class ArenaScene: SKScene {
                 let currentScene = DashboardScene(size: self.size)
                 let transition = SKTransition.doorsCloseVertical(withDuration: 0.8)
                 self.view?.presentScene(currentScene, transition:transition)
+            } else if atPoint(pointTouch) == beginFight {
+                let currentScene = FightScene(size: self.size)
+                let transition = SKTransition.doorsOpenHorizontal(withDuration: 1)
+                self.view?.presentScene(currentScene, transition: transition)
             }
             
         }

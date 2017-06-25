@@ -12,7 +12,9 @@ import SpriteKit
 
 
 class GameViewController: UIViewController {
-   
+    
+    var boutTime = 60
+    
 
     override func viewDidLoad() {
    
@@ -22,6 +24,7 @@ class GameViewController: UIViewController {
         skview.showsFPS = true
         skview.showsNodeCount = true
         skview.presentScene(titleScene)
+        
     }
     
 }
