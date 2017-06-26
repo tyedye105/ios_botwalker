@@ -73,7 +73,7 @@ class ArenaScene: SKScene {
                 let currentScene = DashboardScene(size: self.size)
                 let transition = SKTransition.doorsCloseVertical(withDuration: 0.8)
                 self.view?.presentScene(currentScene, transition:transition)
-            } else if atPoint(pointTouch) == beginFight {
+            } else if atPoint(pointTouch) == beginFight && BotData.data.energy >= 100 {
                 let currentScene = FightScene(size: self.size)
                 let transition = SKTransition.doorsOpenHorizontal(withDuration: 1)
                 self.view?.presentScene(currentScene, transition: transition)

@@ -69,9 +69,11 @@ class WalkScene: SKScene {
             maxedOut.text = "The core has reached maximum charge!"
             botData.energy = botData.maxEnergy
         } else if (botData.energy) < botData.maxEnergy {
+            if currentSteps > 0 {
         botData.energy = Int(Float(currentSteps) * 3.5)
             energyDisplay.text = "Current Energy:\(botData.energy)/\(botData.maxEnergy)"
             maxedOut.text = " "
+            }
         }
     }
 }

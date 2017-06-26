@@ -1,4 +1,3 @@
-//
 //  TitleScene.swift
 //  botwalker
 //
@@ -12,6 +11,7 @@ class TitleScene: SKScene {
     let about_btn = SKLabelNode(fontNamed: "Times New Roman")
     let temp_bot = SKSpriteNode(imageNamed: "tinybot.png")
     let start_btn = SKLabelNode(fontNamed: "Times New Roman")
+    let bot_title = SKSpriteNode(imageNamed: "BotTitle.png")
 
 
 
@@ -19,10 +19,10 @@ class TitleScene: SKScene {
     
     private var game_title = SKLabelNode(fontNamed: "Times New Roman")
     override func didMove( to view: SKView) {
-        game_title.text = "Bot Walker"
-        game_title.fontSize = 60
-        game_title.position = CGPoint(x: self.size.width/2, y: self.size.height*0.8)
-        self.addChild(game_title)
+     
+       
+        bot_title.position = CGPoint(x: self.size.width/2, y: self.size.height*0.9)
+        self.addChild(bot_title)
         temp_bot.position = CGPoint(x: self.size.width/2, y: self.size.height*0.5)
         self.addChild(temp_bot)
         start_btn.text = "Start"

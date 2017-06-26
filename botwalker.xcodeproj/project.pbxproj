@@ -20,11 +20,14 @@
 		04B32CEB1EFDD34900BF762B /* botwalkerabout.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32CEA1EFDD34900BF762B /* botwalkerabout.png */; };
 		04B32CED1EFE05C200BF762B /* DashboardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CEC1EFE05C200BF762B /* DashboardScene.swift */; };
 		04B32CF31EFEF3A000BF762B /* WalkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32CF21EFEF3A000BF762B /* WalkScene.swift */; };
-		04B32D311EFF649900BF762B /* tinybot.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32D301EFF649900BF762B /* tinybot.png */; };
 		04B32D331EFF7B5C00BF762B /* BotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D321EFF7B5C00BF762B /* BotData.swift */; };
 		04B32D351EFF93C200BF762B /* BattleBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D341EFF93C200BF762B /* BattleBot.swift */; };
 		04B32D391EFFA0AD00BF762B /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D381EFFA0AD00BF762B /* ArenaScene.swift */; };
 		04B32D3B1F001EA100BF762B /* FightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32D3A1F001EA100BF762B /* FightScene.swift */; };
+		04B32D411F007E3200BF762B /* tinybot.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32D401F007E3200BF762B /* tinybot.png */; };
+		04B32D431F007E3E00BF762B /* bot_wSword.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32D421F007E3E00BF762B /* bot_wSword.png */; };
+		04B32D471F007FFC00BF762B /* bot_wSword2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32D461F007FFC00BF762B /* bot_wSword2.png */; };
+		04B32D491F00803100BF762B /* BotTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B32D481F00803100BF762B /* BotTitle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +67,14 @@
 		04B32CEA1EFDD34900BF762B /* botwalkerabout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botwalkerabout.png; sourceTree = "<group>"; };
 		04B32CEC1EFE05C200BF762B /* DashboardScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardScene.swift; sourceTree = "<group>"; };
 		04B32CF21EFEF3A000BF762B /* WalkScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkScene.swift; sourceTree = "<group>"; };
-		04B32D301EFF649900BF762B /* tinybot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinybot.png; sourceTree = "<group>"; };
 		04B32D321EFF7B5C00BF762B /* BotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BotData.swift; path = ../BotData.swift; sourceTree = "<group>"; };
 		04B32D341EFF93C200BF762B /* BattleBot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleBot.swift; sourceTree = "<group>"; };
 		04B32D381EFFA0AD00BF762B /* ArenaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArenaScene.swift; path = ../ArenaScene.swift; sourceTree = "<group>"; };
 		04B32D3A1F001EA100BF762B /* FightScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FightScene.swift; sourceTree = "<group>"; };
+		04B32D401F007E3200BF762B /* tinybot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tinybot.png; sourceTree = "<group>"; };
+		04B32D421F007E3E00BF762B /* bot_wSword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bot_wSword.png; sourceTree = "<group>"; };
+		04B32D461F007FFC00BF762B /* bot_wSword2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bot_wSword2.png; path = ../bot_wSword2.png; sourceTree = "<group>"; };
+		04B32D481F00803100BF762B /* BotTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotTitle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +136,12 @@
 				04B32CE81EFDAF6400BF762B /* AboutScene.swift */,
 				04B32CEC1EFE05C200BF762B /* DashboardScene.swift */,
 				04B32CBA1EFCB46A00BF762B /* GameViewController.swift */,
-				04B32D301EFF649900BF762B /* tinybot.png */,
 				04B32CBC1EFCB46A00BF762B /* Main.storyboard */,
 				04B32CBF1EFCB46A00BF762B /* Assets.xcassets */,
+				04B32D481F00803100BF762B /* BotTitle.png */,
+				04B32D461F007FFC00BF762B /* bot_wSword2.png */,
+				04B32D421F007E3E00BF762B /* bot_wSword.png */,
+				04B32D401F007E3200BF762B /* tinybot.png */,
 				04B32CEA1EFDD34900BF762B /* botwalkerabout.png */,
 				04B32CC11EFCB46A00BF762B /* LaunchScreen.storyboard */,
 				04B32CC41EFCB46A00BF762B /* Info.plist */,
@@ -267,11 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B32CBE1EFCB46A00BF762B /* Main.storyboard in Resources */,
-				04B32D311EFF649900BF762B /* tinybot.png in Resources */,
+				04B32D411F007E3200BF762B /* tinybot.png in Resources */,
 				04B32CC01EFCB46A00BF762B /* Assets.xcassets in Resources */,
 				04B32CEB1EFDD34900BF762B /* botwalkerabout.png in Resources */,
+				04B32D491F00803100BF762B /* BotTitle.png in Resources */,
 				04B32CC31EFCB46A00BF762B /* LaunchScreen.storyboard in Resources */,
 				04B32CB71EFCB46A00BF762B /* Actions.sks in Resources */,
+				04B32D471F007FFC00BF762B /* bot_wSword2.png in Resources */,
+				04B32D431F007E3E00BF762B /* bot_wSword.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

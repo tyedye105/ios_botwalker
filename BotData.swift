@@ -8,8 +8,8 @@
 
 class BotData {
     static let data = BotData()
-    var energy = 200
+    var energy = 0
     let maxEnergy = 200
-    var playerBot = BattleBot(hp: 100, attk: 9, actionTime:1.0)
+    let hp = 100
     
 }

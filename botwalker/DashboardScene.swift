@@ -7,14 +7,16 @@
 //
 
 import SpriteKit
+import CoreMotion
 
 
 class DashboardScene: SKScene {
     var energyMeter = SKLabelNode(fontNamed: "Times New Roman")
-    var tmpBot = SKShapeNode(rectOf: CGSize(width:200, height:200))
+    var tmpBot = SKSpriteNode(imageNamed: "bot_wSword")
     let walk_btn = SKLabelNode(fontNamed: "Times New Roman")
     let fight_btn = SKLabelNode(fontNamed: "Times New Roman")
     var hpMeter = SKLabelNode(fontNamed: "Times New Roman")
+    let punchit = SKLabelNode(fontNamed: "Times New Roman")
     
 
     
@@ -31,8 +33,19 @@ class DashboardScene: SKScene {
             addChild(tmpBot)
             addChild(fight_btn)
         hpMeter.position = CGPoint(x: self.size.width/2 + self.size.width*0.25, y: self.size.height*0.80)
-        hpMeter.text = "Current HP:\(BotData.data.playerBot.hp)"
+        hpMeter.text = "Current HP: \(BotData.data.hp)"
             addChild(hpMeter)
+        punchit.position = CGPoint(x: self.size.width/2 - self.size.width*0.25, y: self.size.height*0.25)
+        punchit.text = "PUNCH IT!"
+        if CMPedometer.isStepCountingAvailable() == false {
+            punchit.isHidden = false
+        } else {
+            punchit.isHidden = true
+        }
+        addChild(punchit)
+        
+      
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -50,7 +63,12 @@ class DashboardScene: SKScene {
                 let currentScene = ArenaScene (size:self.size)
                 let transition = SKTransition.doorsOpenVertical(withDuration: 1)
                 self.view?.presentScene(currentScene, transition: transition)
+            } else if atPoint(pointTouch) == punchit {
+                BotData.data.energy = 200
+                  energyMeter.text = "Current Energy:\(BotData.data.energy)"
+                
             }
         }
+
     }
 }
