@@ -1,4 +1,3 @@
-//
 //  TitleScene.swift
 //  botwalker
 //
@@ -10,8 +9,9 @@ import SpriteKit
 
 class TitleScene: SKScene {
     let about_btn = SKLabelNode(fontNamed: "Times New Roman")
-    let temp_bot = SKShapeNode(rectOf: CGSize(width: 200, height: 200))
+    let temp_bot = SKSpriteNode(imageNamed: "tinybot.png")
     let start_btn = SKLabelNode(fontNamed: "Times New Roman")
+    let bot_title = SKSpriteNode(imageNamed: "BotTitle.png")
 
 
 
@@ -19,10 +19,10 @@ class TitleScene: SKScene {
     
     private var game_title = SKLabelNode(fontNamed: "Times New Roman")
     override func didMove( to view: SKView) {
-        game_title.text = "Bot Walker"
-        game_title.fontSize = 60
-        game_title.position = CGPoint(x: self.size.width/2, y: self.size.height*0.8)
-        self.addChild(game_title)
+     
+       
+        bot_title.position = CGPoint(x: self.size.width/2, y: self.size.height*0.9)
+        self.addChild(bot_title)
         temp_bot.position = CGPoint(x: self.size.width/2, y: self.size.height*0.5)
         self.addChild(temp_bot)
         start_btn.text = "Start"
@@ -38,10 +38,14 @@ class TitleScene: SKScene {
         for touch in touches {
         let pointTouch = touch.location(in: self)
         if atPoint (pointTouch) == about_btn{
-            let aboutScene = AboutScene(size: self.size)
-            let transition = SKTransition.doorsOpenHorizontal(withDuration: 0.0001)
-            self.view?.presentScene(aboutScene, transition:transition)
-            
+            let currentScene = AboutScene(size: self.size)
+            let transition = SKTransition.doorsOpenHorizontal(withDuration: 0.8)
+            self.view?.presentScene(currentScene, transition:transition)
+        } else if atPoint(pointTouch) == start_btn{
+            let currentScene = DashboardScene(size: self.size)
+            let transition = SKTransition.doorsOpenHorizontal(withDuration:0.8)
+            self.view?.presentScene(currentScene, transition:transition)
+
             }
         }
         

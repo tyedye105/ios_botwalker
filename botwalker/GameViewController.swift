@@ -10,16 +10,21 @@ import UIKit
 import SpriteKit
 
 
+
 class GameViewController: UIViewController {
+    
+    var boutTime = 60
+    
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+   
         
         let titleScene = TitleScene(size: self.view.bounds.size)
         let skview = self.view as! SKView
         skview.showsFPS = true
         skview.showsNodeCount = true
         skview.presentScene(titleScene)
+        
     }
     
 }
